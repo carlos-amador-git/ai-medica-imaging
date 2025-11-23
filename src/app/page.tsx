@@ -133,7 +133,7 @@ export default function Home() {
                     <img
                       src={preview}
                       alt="previsualización"
-                      className="mt-4 max-h-64 mx-auto rounded-xl border border-zinc-200 dark:border-zinc-700"
+                      className="mt-4 max-h-80 mx-auto rounded-xl border border-zinc-200 dark:border-zinc-700"
                     />
                   )}
                 </div>
