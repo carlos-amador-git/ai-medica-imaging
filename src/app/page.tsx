@@ -14,7 +14,7 @@ export default function Home() {
   const inputRef = useRef<HTMLInputElement | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
 
-  const onDrop = useCallback((e: React.DragEvent<HTMLDivElement>) => {
+  const onDrop = useCallback((e: React.DragEvent<HTMLDivElement>) => { 
     e.preventDefault();
     e.stopPropagation();
     setDragActive(false);
